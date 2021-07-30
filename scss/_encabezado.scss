@@ -1,0 +1,58 @@
+@import "fuente";
+@import "colores";
+@import "tamanios";
+
+.parallax {
+	background-image: url("../assets/img/encabezado_horizonte.jpg");
+	height: 600px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media only screen and (max-width:767px){
+		background-image: url("../assets/img/encabezado_hojas.png");
+		height: 450px;
+	}
+}
+
+@mixin estilo {
+	font-family:$fuente;
+	color:$grisOscuro;
+	text-align:center;
+}
+
+h2 {
+	@include estilo;
+	font-size:$h2Desktop;
+	letter-spacing:3px;
+	@media only screen and (max-width:767px){
+		font-size:$h2Mobile;
+	}
+}
+
+h3 {
+	@include estilo;
+	font-size:$h3Desktop;
+	padding-bottom: 30px;
+	@media only screen and (max-width:767px){
+		font-size:$h3Mobile;
+		padding-bottom:5px;
+	}
+}
+
+h4 {
+	@include estilo;
+	font-size:$h4Desktop;
+	font-style: italic;
+	@media only screen and (max-width:767px){
+		font-size:$h4Mobile;
+	}
+}
+
+.encabezadoPrincipal {
+	padding-top: 40px;
+	h3 {
+		padding-bottom: 20px;
+	}
+}

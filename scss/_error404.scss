@@ -1,0 +1,27 @@
+.backgroundBody {
+	background: $grisClaro;
+}
+
+.error404__img {
+	margin-top:30px;
+}
+
+.error404__texto {
+	padding:5px;
+	margin-bottom:50px;
+}
+
+.botonError404{
+	text-decoration: none !important;
+	font-family: $fuente;
+	font-size: 20px;
+	padding: 10px;
+	background: #2fb4cc;
+	color: #fff;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.botonError404:hover {
+	color: #fff;
+}

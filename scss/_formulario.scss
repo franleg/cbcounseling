@@ -1,0 +1,14 @@
+.contacto {
+  width: 100%;
+  align-items: center;
+  margin: 40px;
+  .contacto__formulario {
+    padding: 20px;
+  }
+  .contacto__mapa {
+    @extend .contacto__formulario;
+    iframe {
+      width:100%;
+    }
+  }
+}
