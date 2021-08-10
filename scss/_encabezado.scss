@@ -3,7 +3,7 @@
 @import "tamanios";
 
 .parallax {
-	background-image: url("../assets/img/encabezado_horizonte.jpg");
+	background-image: url("../assets/img/encabezado_horizonte.png");
 	height: 600px;
 	width: 100%;
 	background-attachment: fixed;
@@ -34,7 +34,7 @@ h2 {
 h3 {
 	@include estilo;
 	font-size:$h3Desktop;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	@media only screen and (max-width:767px){
 		font-size:$h3Mobile;
 		padding-bottom:5px;

@@ -7081,13 +7081,20 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+body {
+  background-color: #F2F2F2; }
+
 .col-lg-12, .col-lg-6 {
   padding-left: 0;
   padding-right: 0;
   box-sizing: border-box; }
 
+.backgroundWhite {
+  background-color: #fff; }
+
 .barraNav {
-  background-color: #E8E8E8; }
+  background-color: #E8E8E8;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1); }
 
 .barraNav__logo {
   padding-left: 10px; }
@@ -7101,13 +7108,13 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 10px;
   color: #363032;
   font-family: PlayfairDisplay;
-  font-size: 19px; }
+  font-size: 20px; }
   @media only screen and (max-width: 767px) {
     .nav-item {
       padding: 0; } }
 
 .parallax {
-  background-image: url("../assets/img/encabezado_horizonte.jpg");
+  background-image: url("../assets/img/encabezado_horizonte.png");
   height: 600px;
   width: 100%;
   background-attachment: fixed;
@@ -7123,7 +7130,7 @@ h2 {
   font-family: PlayfairDisplay;
   color: #363032;
   text-align: center;
-  font-size: 45px;
+  font-size: 58px;
   letter-spacing: 3px; }
   @media only screen and (max-width: 767px) {
     h2 {
@@ -7133,8 +7140,8 @@ h3 {
   font-family: PlayfairDisplay;
   color: #363032;
   text-align: center;
-  font-size: 30px;
-  padding-bottom: 30px; }
+  font-size: 36px;
+  padding-bottom: 40px; }
   @media only screen and (max-width: 767px) {
     h3 {
       font-size: 26px;
@@ -7144,7 +7151,7 @@ h4 {
   font-family: PlayfairDisplay;
   color: #363032;
   text-align: center;
-  font-size: 26px;
+  font-size: 28px;
   font-style: italic; }
   @media only screen and (max-width: 767px) {
     h4 {
@@ -7158,9 +7165,10 @@ h4 {
 /*map-get*/
 h1 {
   font-family: PlayfairDisplay;
-  font-size: 28px;
+  font-size: 34px;
   color: #363032;
   text-align: center;
+  font-weight: bold;
   padding-top: 40px;
   margin-left: 10px;
   margin-right: 10px; }
@@ -7171,9 +7179,10 @@ h1 {
 p {
   font-family: PlayfairDisplay;
   font-size: 20px;
-  color: #363032;
+  color: #6a6a6a;
   line-height: 1.6;
-  padding: 34px; }
+  padding: 20px 50px 50px 50px;
+  margin: 20px; }
   @media only screen and (max-width: 767px) {
     p {
       font-size: 18px; } }
@@ -7195,38 +7204,87 @@ p {
     margin-left: 30px;
     margin-right: 30px; } }
 
-.servicios .card {
+.card {
   margin: 30px;
+  background-color: #E8E8E8;
   box-shadow: 0 2px 2px rgba 0, 0, 0, 0.2;
-  transition: all 400ms ease; }
+  transition: all 1s; }
+  .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+  .card h4 {
+    font-weight: bold; }
 
-.servicios .card:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
-
-.servicios .card__texto {
+.card__texto {
   padding: 5px;
   color: #6a6a6a; }
 
 .boton {
   text-decoration: none !important;
   font-family: PlayfairDisplay;
-  font-size: 20px;
   padding: 10px;
   border-radius: 4px;
+  font-size: 20px;
   color: #363032;
   border: 1px solid #E8E8E8;
-  transition: all 400ms ease; }
+  transition: all 0.5s ease; }
+  .boton:hover {
+    background: #363032;
+    color: #E8E8E8;
+    border: 1px solid #363032; }
 
-.boton:hover {
+.botonAtencion {
+  text-decoration: none !important;
+  font-family: PlayfairDisplay;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #E8E8E8;
   background: #363032;
-  color: #E8E8E8; }
-
-.botonTamanio {
-  font-size: 18px; }
+  transition: all 400ms ease; }
   @media only screen and (max-width: 767px) {
-    .botonTamanio {
+    .botonAtencion {
       font-size: 16px; } }
+  .botonAtencion:hover {
+    background: #3498db;
+    color: #E8E8E8; }
+
+.botonSesion {
+  text-decoration: none !important;
+  font-family: PlayfairDisplay;
+  padding: 10px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  left: 250px;
+  font-size: 20px;
+  color: #E8E8E8;
+  background: #363032;
+  transition: all 400ms ease; }
+  @media only screen and (max-width: 767px) {
+    .botonSesion {
+      font-size: 16px; } }
+  .botonSesion:hover {
+    background: #3498db;
+    color: #E8E8E8; }
+
+.botonForm {
+  text-decoration: none !important;
+  font-family: PlayfairDisplay;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #363032;
+  background: #E8E8E8;
+  border: 1px solid #E8E8E8;
+  transition: all 1s ease; }
+  @media only screen and (max-width: 767px) {
+    .botonForm {
+      font-size: 16px; } }
+  .botonForm:hover {
+    color: #E8E8E8;
+    background: #363032;
+    border: 1px solid #363032; }
 
 .contenido {
   display: flex;
@@ -7267,6 +7325,25 @@ p {
 .grosor-10 {
   font-weight: 1000; }
 
+.inicio {
+  padding: 20px; }
+  @media only screen and (max-width: 767px) {
+    .inicio {
+      padding: 20px 10px 20px 10px; } }
+  .inicio .inicio__titulo {
+    font-size: 48px;
+    color: #9B8277; }
+  .inicio .inicio__texto {
+    color: #6a6a6a; }
+  .inicio .inicio__imagen {
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.servicio__imagen {
+  padding: 40px; }
+  @media only screen and (max-width: 767px) {
+    .servicio__imagen {
+      padding: 20px; } }
+
 .contacto {
   width: 100%;
   align-items: center;
@@ -7281,7 +7358,7 @@ footer {
   text-align: center;
   margin-top: 40px;
   padding-top: 30px;
-  padding-bottom: 20px; }
+  padding-bottom: 30px; }
   footer h5 {
     font-family: PlayfairDisplay;
     font-size: 18px;
@@ -7310,17 +7387,59 @@ footer {
       footer .newsletter__email--transformacion:focus {
         width: 200px;
         font-size: 16px; }
+  footer .redes .redes__titulo {
+    padding-bottom: 10px; }
   footer .redes__iconoInstagram--transformacion {
-    transition: all 2s; }
+    padding-right: 10px;
+    font-size: 36px;
+    color: #E8E8E8;
+    transition: all 1s; }
     footer .redes__iconoInstagram--transformacion:hover {
       transform: scale(1.2, 1.2) translateY(3px); }
   footer .redes__iconoFacebook--transformacion {
-    transition: all 2s; }
+    padding-left: 10px;
+    font-size: 36px;
+    color: #E8E8E8;
+    transition: all 1s; }
     footer .redes__iconoFacebook--transformacion:hover {
       transform: scale(1.2, 1.2) translateY(3px); }
   @media only screen and (max-width: 767px) {
     footer .redes {
       padding-top: 30px; } }
+  footer .copyright {
+    margin-top: 60px; }
+  footer .footer__info {
+    margin-top: 50px; }
+  footer .footer__icon {
+    margin-bottom: 10px;
+    transition: all 1s; }
+    footer .footer__icon:hover {
+      transform: scale(1.2, 1.2) translateY(-3px); }
+
+.btn-wsp {
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  line-height: 69px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  border-radius: 50px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 1s ease;
+  text-align: center;
+  z-index: 50; }
+  .btn-wsp:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3); }
+
+.footer__nav {
+  margin-top: 30px; }
+  .footer__nav li {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .footer__nav a {
+    text-decoration: none; }
 
 .backgroundBody {
   background: #E8E8E8; }

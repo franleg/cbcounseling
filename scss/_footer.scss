@@ -8,7 +8,7 @@ footer {
 	margin-top:40px;
 	padding:{
 	top:30px;
-	bottom:20px;
+	bottom:30px;
 	}	
 	h5 {
 		font-family:$fuente;
@@ -48,14 +48,23 @@ footer {
 		}
 	}
 	.redes {
+		.redes__titulo {
+			padding-bottom: 10px;
+		}
 		&__iconoInstagram--transformacion {
-			transition: all 2s;
+			padding-right:10px;
+			font-size: 36px;
+			color: $grisClaro;
+			transition: all 1s;
 			&:hover {
 				transform: scale(1.2,1.2) translateY(3px);
 			}
 		}
 		&__iconoFacebook--transformacion {
-			transition: all 2s;
+			padding-left: 10px;
+			font-size: 36px;
+			color: $grisClaro;
+			transition: all 1s;
 			&:hover {
 				transform: scale(1.2,1.2) translateY(3px);
 			}
@@ -63,5 +72,50 @@ footer {
 		@media only screen and (max-width:767px){
 			padding-top:30px;
 		}
+	}
+	.copyright {
+		margin-top: 60px;
+	}
+	.footer__info {
+		margin-top: 50px;
+	}
+	.footer__icon {
+		margin-bottom: 10px;
+		transition: all 1s;
+		&:hover {
+			transform: scale(1.2,1.2) translateY(-3px);
+		}
+	}
+}
+
+.btn-wsp {
+	position: fixed;
+	width: 75px;
+	height: 75px; 
+	line-height: 69px;
+	bottom: 30px;
+	right: 30px;
+	background: #0df053;
+	border-radius: 50px;
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
+	transition: all 1s ease;
+	text-align: center;
+	z-index: 50;
+	&:hover {
+		transform: translateY(-10px);
+		box-shadow: 0px 8px 12px rgba(0,0,0,0.3);
+	}
+}
+
+.footer__nav {
+	margin-top: 30px;
+	li {
+		padding: {
+			left:30px;
+			right:30px;
+		}
+	}
+	a {
+		text-decoration: none;
 	}
 }

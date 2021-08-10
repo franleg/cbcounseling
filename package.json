@@ -1,7 +1,6 @@
 {
   "name": "clase-12",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,15 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franleg/cbcounseling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franleg/cbcounseling/issues"
+  },
+  "homepage": "https://github.com/franleg/cbcounseling#readme",
+  "description": ""
 }
