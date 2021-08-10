@@ -7089,9 +7089,6 @@ body {
   padding-right: 0;
   box-sizing: border-box; }
 
-.backgroundWhite {
-  background-color: #fff; }
-
 .barraNav {
   background-color: #E8E8E8;
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1); }
@@ -7114,7 +7111,7 @@ body {
       padding: 0; } }
 
 .parallax {
-  background-image: url("../assets/img/encabezado_horizonte.png");
+  background-image: url("../assets/img/playa_desktop.png");
   height: 600px;
   width: 100%;
   background-attachment: fixed;
@@ -7123,12 +7120,12 @@ body {
   background-size: cover; }
   @media only screen and (max-width: 767px) {
     .parallax {
-      background-image: url("../assets/img/encabezado_hojas.png");
+      background-image: url("../assets/img/playa.jpg");
       height: 450px; } }
 
 h2 {
   font-family: PlayfairDisplay;
-  color: #363032;
+  color: #6a6a6a;
   text-align: center;
   font-size: 58px;
   letter-spacing: 3px; }
@@ -7138,7 +7135,7 @@ h2 {
 
 h3 {
   font-family: PlayfairDisplay;
-  color: #363032;
+  color: #6a6a6a;
   text-align: center;
   font-size: 36px;
   padding-bottom: 40px; }
@@ -7149,7 +7146,7 @@ h3 {
 
 h4 {
   font-family: PlayfairDisplay;
-  color: #363032;
+  color: #6a6a6a;
   text-align: center;
   font-size: 28px;
   font-style: italic; }
@@ -7181,18 +7178,20 @@ p {
   font-size: 20px;
   color: #6a6a6a;
   line-height: 1.6;
-  padding: 20px 50px 50px 50px;
+  padding: 10px 40px 40px 40px;
   margin: 20px; }
   @media only screen and (max-width: 767px) {
     p {
-      font-size: 18px; } }
+      font-size: 18px;
+      padding: 0px 20px 10px 20px; } }
 
 #sesionOnline {
+  padding-bottom: 0px;
   font-size: 24px;
   text-decoration: underline; }
   @media only screen and (max-width: 767px) {
     #sesionOnline {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 @media only screen and (min-width: 1024px) {
   hr {
@@ -7205,7 +7204,7 @@ p {
     margin-right: 30px; } }
 
 .card {
-  margin: 30px;
+  margin: 24px;
   background-color: #E8E8E8;
   box-shadow: 0 2px 2px rgba 0, 0, 0, 0.2;
   transition: all 1s; }
@@ -7214,6 +7213,8 @@ p {
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
   .card h4 {
     font-weight: bold; }
+  .card p {
+    padding: 5px; }
 
 .card__texto {
   padding: 5px;
@@ -7344,6 +7345,15 @@ p {
     .servicio__imagen {
       padding: 20px; } }
 
+.slider {
+  padding: 60px; }
+  @media only screen and (max-width: 767px) {
+    .slider {
+      padding: 30px; } }
+
+.texto__atencionOnline {
+  padding-top: 30px; }
+
 .contacto {
   width: 100%;
   align-items: center;
@@ -7410,11 +7420,17 @@ footer {
     margin-top: 60px; }
   footer .footer__info {
     margin-top: 50px; }
+    @media only screen and (max-width: 767px) {
+      footer .footer__info {
+        margin-top: 20px; } }
   footer .footer__icon {
     margin-bottom: 10px;
     transition: all 1s; }
     footer .footer__icon:hover {
       transform: scale(1.2, 1.2) translateY(-3px); }
+    @media only screen and (max-width: 767px) {
+      footer .footer__icon {
+        margin-bottom: 0px; } }
 
 .btn-wsp {
   position: fixed;
@@ -7432,14 +7448,6 @@ footer {
   .btn-wsp:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3); }
-
-.footer__nav {
-  margin-top: 30px; }
-  .footer__nav li {
-    padding-left: 30px;
-    padding-right: 30px; }
-  .footer__nav a {
-    text-decoration: none; }
 
 .backgroundBody {
   background: #E8E8E8; }

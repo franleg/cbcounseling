@@ -31,18 +31,20 @@ p {
 	font-size:$textoDesktop;
 	color:#6a6a6a;
 	line-height:map-get($estilos, interlineado);
-	padding:20px 50px 50px 50px;
+	padding:10px 40px 40px 40px;
 	margin: 20px;
 	@media only screen and (max-width:767px){
 		font-size:$textoMobile;
+		padding: 0px 20px 10px 20px;
 	}
 }
 
 #sesionOnline {
+	padding-bottom: 0px;
 	font-size: 24px;
 	text-decoration: underline;
 	@media only screen and (max-width:767px){
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
@@ -70,7 +72,7 @@ $vista:desktop;
 }
 
 .card {
-	margin:30px;
+	margin:24px;
 	background-color: $grisClaro;
 	box-shadow: 0 2px 2px rgba (0, 0, 0, 0.2);
 	transition: all 1s;
@@ -80,6 +82,9 @@ $vista:desktop;
 	}
 	h4 {
 		font-weight: bold;
+	}
+	p {
+		padding: 5px;
 	}
 }
 
@@ -198,5 +203,18 @@ $vista:desktop;
 	padding: 40px;
 	@media only screen and (max-width:767px){
 		padding: 20px;
+	}
+}
+
+.slider {
+	padding: 60px;
+	@media only screen and (max-width:767px){
+		padding: 30px;
+	}
+}
+
+.texto__atencionOnline {
+	padding:{
+		top: 30px;
 	}
 }
