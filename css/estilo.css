@@ -7091,7 +7091,7 @@ body {
 
 .barraNav {
   background-color: #E8E8E8;
-  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1); }
 
 .barraNav__logo {
   padding-left: 10px; }
@@ -7152,7 +7152,9 @@ h4 {
   font-style: italic; }
   @media only screen and (max-width: 767px) {
     h4 {
-      font-size: 22px; } }
+      font-size: 22px;
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 .encabezadoPrincipal {
   padding-top: 40px; }
@@ -7162,8 +7164,8 @@ h4 {
 /*map-get*/
 h1 {
   font-family: PlayfairDisplay;
-  font-size: 34px;
-  color: #363032;
+  font-size: 32px;
+  color: #6a6a6a;
   text-align: center;
   font-weight: bold;
   padding-top: 40px;
@@ -7171,7 +7173,7 @@ h1 {
   margin-right: 10px; }
   @media only screen and (max-width: 767px) {
     h1 {
-      font-size: 24px; } }
+      font-size: 22px; } }
 
 p {
   font-family: PlayfairDisplay;
@@ -7245,7 +7247,7 @@ p {
   transition: all 400ms ease; }
   @media only screen and (max-width: 767px) {
     .botonAtencion {
-      font-size: 16px; } }
+      font-size: 18px; } }
   .botonAtencion:hover {
     background: #3498db;
     color: #E8E8E8; }
@@ -7257,14 +7259,15 @@ p {
   border-radius: 4px;
   width: 150px;
   position: relative;
-  left: 250px;
+  left: 260px;
   font-size: 20px;
   color: #E8E8E8;
   background: #363032;
   transition: all 400ms ease; }
   @media only screen and (max-width: 767px) {
     .botonSesion {
-      font-size: 16px; } }
+      font-size: 18px;
+      left: 146px; } }
   .botonSesion:hover {
     background: #3498db;
     color: #E8E8E8; }
@@ -7326,19 +7329,6 @@ p {
 .grosor-10 {
   font-weight: 1000; }
 
-.inicio {
-  padding: 20px; }
-  @media only screen and (max-width: 767px) {
-    .inicio {
-      padding: 20px 10px 20px 10px; } }
-  .inicio .inicio__titulo {
-    font-size: 48px;
-    color: #9B8277; }
-  .inicio .inicio__texto {
-    color: #6a6a6a; }
-  .inicio .inicio__imagen {
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
-
 .servicio__imagen {
   padding: 40px; }
   @media only screen and (max-width: 767px) {
@@ -7371,18 +7361,18 @@ footer {
   padding-bottom: 30px; }
   footer h5 {
     font-family: PlayfairDisplay;
-    font-size: 18px;
-    color: #E8E8E8; }
-    @media only screen and (max-width: 767px) {
-      footer h5 {
-        font-size: 16px; } }
-  footer h6 {
-    font-family: PlayfairDisplay;
     font-size: 16px;
     color: #E8E8E8; }
     @media only screen and (max-width: 767px) {
+      footer h5 {
+        font-size: 14px; } }
+  footer h6 {
+    font-family: PlayfairDisplay;
+    font-size: 14px;
+    color: #E8E8E8; }
+    @media only screen and (max-width: 767px) {
       footer h6 {
-        font-size: 14px;
+        font-size: 12px;
         padding-top: 30px; } }
   footer .newsletter {
     display: flex;

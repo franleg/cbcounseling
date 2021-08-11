@@ -13,7 +13,7 @@ $estilos: (
 h1 {
 	font-family:map-get($estilos, fuente);
 	font-size:$h1Desktop;
-	color:$grisOscuro;
+	color:#6a6a6a;
 	text-align:map-get($estilos, centro);
 	font-weight:bold;
 	padding-top:40px;
@@ -120,7 +120,7 @@ $vista:desktop;
 	background: $grisOscuro;
 	transition: all 400ms ease;
 	@media only screen and (max-width:767px){
-		font-size:16px;
+		font-size:18px;
 	}
 	&:hover {
 		background: #3498db;
@@ -132,13 +132,14 @@ $vista:desktop;
 	@include botones;
 	width: 150px;
 	position: relative;
-	left: 250px;
+	left: 260px;
 	font-size:20px;
 	color: $grisClaro;
 	background: $grisOscuro;
 	transition: all 400ms ease;
 	@media only screen and (max-width:767px){
-		font-size:16px;
+		font-size:18px;
+		left: 146px;
 	}
 	&:hover {
 		background: #3498db;
@@ -179,23 +180,6 @@ $vista:desktop;
 @for $i from 1 through 10 {
 	.grosor-#{$i}{
 		font-weight:100 *$i
-	}
-}
-
-.inicio {
-	padding: 20px;
-	@media only screen and (max-width: 767px){
-		padding: 20px 10px 20px 10px;
-	}
-	.inicio__titulo {
-		font-size:48px;
-		color:$marronOscuro;
-	}
-	.inicio__texto {
-		color: #6a6a6a;
-	}
-	.inicio__imagen {
-		box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 	}
 }
 
