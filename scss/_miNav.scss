@@ -7,7 +7,7 @@
 }
 
 .barraNav__logo {
-  padding-left:10px;
+  padding-left:15px;
 }
 
 @mixin justify-end {
@@ -27,7 +27,9 @@
   font-family:$fuente;
   font-size:20px;
   @media only screen and (max-width:767px){
-  padding:0;
+  padding:2px;
+  display: flex;
+  justify-content: center;
   }
 }
 
