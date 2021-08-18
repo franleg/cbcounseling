@@ -69,6 +69,15 @@ footer {
 				transform: scale(1.2,1.2) translateY(3px);
 			}
 		}
+		&__iconoMapa--transformacion {
+			padding-bottom: 10px;
+			font-size: 36px;
+			color: $grisClaro;
+			transition: all 1s;
+			&:hover {
+				transform: scale(1.2,1.2) translateY(-3px);
+			}
+		}
 		@media only screen and (max-width:767px){
 			padding-top:30px;
 		}
