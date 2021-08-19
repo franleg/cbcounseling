@@ -71,7 +71,7 @@ footer {
 		}
 		&__iconoMapa--transformacion {
 			padding-bottom: 10px;
-			font-size: 36px;
+			font-size: 28px;
 			color: $grisClaro;
 			transition: all 1s;
 			&:hover {
@@ -101,6 +101,10 @@ footer {
 			margin-bottom: 0px;
 		}
 	}
+}
+
+#footer__ubicacion {
+	padding-top: 6px;
 }
 
 .btn-wsp {
