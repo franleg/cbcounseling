@@ -7374,7 +7374,6 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px; }
     footer .redes__titulo {
-      font-size: 18px;
       padding-bottom: 10px; }
     footer .redes__iconoInstagram {
       padding-right: 10px;
@@ -7390,8 +7389,6 @@ footer {
       transition: all 400ms; }
       footer .redes__iconoFacebook:hover {
         transform: scale(1.2, 1.2) translateY(3px); }
-  footer #contacto__titulo {
-    font-size: 18px; }
   footer #contacto__linea {
     background: #E8E8E8;
     margin-right: 140px;
