@@ -89,7 +89,7 @@ footer {
 		@include flex-row-center;
 		align-items:baseline;
 		padding:{
-			top:10px;
+			top:50px;
 		}
 
 		&__titulo {
@@ -99,12 +99,21 @@ footer {
 		&__email {
 			font-size:12px;
 			padding:1px;
-			width: 160px;
+			width: 250px;
 			height: 22px;
 			transition: all 1s;
 			&:focus {
-				width: 200px;
-				font-size: 16px;
+				width: 300px;
+				font-size: 14px;
+			}
+			@media only screen and (max-width:767px){
+				width: 120px;
+				height: 22px;
+				transition: all 1s;
+				&:focus {
+					width: 160px;
+					font-size: 14px;
+				}
 			}	
 		}
 

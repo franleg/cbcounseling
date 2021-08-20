@@ -7408,18 +7408,26 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    padding-top: 10px; }
+    padding-top: 50px; }
     footer .newsletter__titulo {
       padding-right: 5px; }
     footer .newsletter__email {
       font-size: 12px;
       padding: 1px;
-      width: 160px;
+      width: 250px;
       height: 22px;
       transition: all 1s; }
       footer .newsletter__email:focus {
-        width: 200px;
-        font-size: 16px; }
+        width: 300px;
+        font-size: 14px; }
+      @media only screen and (max-width: 767px) {
+        footer .newsletter__email {
+          width: 120px;
+          height: 22px;
+          transition: all 1s; }
+          footer .newsletter__email:focus {
+            width: 160px;
+            font-size: 14px; } }
     footer .newsletter #newsletter__boton {
       font-size: 12px;
       padding: 1px; }
