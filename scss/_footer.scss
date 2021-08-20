@@ -84,10 +84,6 @@ footer {
 		color: $grisClaro;
 	}
 
-	#telefono {
-		text-decoration:none;
-	}
-
 	@mixin flex-row-center {
 		display:flex;
 		flex-direction:row;
