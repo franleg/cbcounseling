@@ -7351,7 +7351,7 @@ p {
 footer {
   background-color: #363032;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px; }
   footer h5 {
@@ -7410,7 +7410,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline; }
+    align-items: baseline;
+    padding-top: 10px; }
     footer .newsletter__titulo {
       padding-right: 5px; }
     footer .newsletter__email {
