@@ -101,6 +101,7 @@ footer {
 
 		&__titulo {
 			padding-right:5px;
+			font-size: 18px;
 		}
 
 		&__email {
@@ -139,6 +140,7 @@ footer {
 
 	#copyright {
 		padding-top: 60px;
+		font-size:16px;
 		@media only screen and (max-width:767px){
 			padding-top: 10px;
 		}
