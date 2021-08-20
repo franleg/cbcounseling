@@ -7352,8 +7352,12 @@ footer {
   background-color: #363032;
   text-align: center;
   margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  @media only screen and (max-width: 767px) {
+    footer {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
   footer h5 {
     font-family: PlayfairDisplay;
     font-size: 18px;
@@ -7408,7 +7412,10 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    padding-top: 50px; }
+    padding-top: 110px; }
+    @media only screen and (max-width: 767px) {
+      footer .newsletter {
+        padding-top: 40px; } }
     footer .newsletter__titulo {
       padding-right: 5px; }
     footer .newsletter__email {
@@ -7436,6 +7443,11 @@ footer {
     @media only screen and (max-width: 767px) {
       footer .footer__info {
         margin-top: 30px; } }
+  footer #copyright {
+    padding-top: 60px; }
+    @media only screen and (max-width: 767px) {
+      footer #copyright {
+        padding-top: 10px; } }
 
 .btn-wsp {
   position: fixed;

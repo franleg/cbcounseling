@@ -7,8 +7,14 @@ footer {
 	text-align:center;
 	margin-top:30px;
 	padding:{
-		top:30px;
-		bottom:30px;
+		top:60px;
+		bottom:60px;
+	}
+	@media only screen and (max-width:767px){
+		padding:{
+			top: 30px;
+			bottom:30px;
+		}
 	}
 
 	h5 {
@@ -88,8 +94,9 @@ footer {
 	.newsletter {
 		@include flex-row-center;
 		align-items:baseline;
-		padding:{
-			top:50px;
+		padding-top: 110px;
+		@media only screen and (max-width:767px){
+			padding-top: 40px;
 		}
 
 		&__titulo {
@@ -127,6 +134,13 @@ footer {
 		margin-top: 50px;
 		@media only screen and (max-width:767px){
 			margin-top: 30px;
+		}
+	}
+
+	#copyright {
+		padding-top: 60px;
+		@media only screen and (max-width:767px){
+			padding-top: 10px;
 		}
 	}
 }
