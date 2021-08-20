@@ -7363,18 +7363,18 @@ footer {
       padding-bottom: 30px; } }
   footer h5 {
     font-family: PlayfairDisplay;
-    font-size: 18px;
+    font-size: 22px;
     color: #E8E8E8; }
     @media only screen and (max-width: 767px) {
       footer h5 {
-        font-size: 16px; } }
+        font-size: 20px; } }
   footer h6 {
     font-family: PlayfairDisplay;
-    font-size: 16px;
+    font-size: 18px;
     color: #E8E8E8; }
     @media only screen and (max-width: 767px) {
       footer h6 {
-        font-size: 14px;
+        font-size: 16px;
         padding-top: 10px;
         padding-bottom: 20px; } }
   footer .redes {
