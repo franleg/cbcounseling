@@ -7155,9 +7155,12 @@ h4 {
       padding-right: 20px; } }
 
 .encabezadoPrincipal {
-  padding-top: 40px; }
+  padding-top: 90px; }
   .encabezadoPrincipal h3 {
-    padding-bottom: 20px; }
+    padding-bottom: 40px; }
+  @media only screen and (max-width: 767px) {
+    .encabezadoPrincipal {
+      padding-top: 150px; } }
 
 /*map-get*/
 h1 {
