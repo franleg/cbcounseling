@@ -7,9 +7,10 @@ footer {
 	text-align:center;
 	margin-top:40px;
 	padding:{
-	top:30px;
-	bottom:30px;
-	}	
+		top:30px;
+		bottom:30px;
+	}
+
 	h5 {
 		font-family:$fuente;
 		font-size:$h5Desktop;
@@ -18,93 +19,109 @@ footer {
 			font-size:$h5Mobile;
 		}
 	}
+
 	h6 {
 		font-family:$fuente;
 		font-size:$h6Desktop;
 		color:$grisClaro;
 		@media only screen and (max-width:767px){
 			font-size:$h6Mobile;
-			padding-top:30px;
+			padding-top:10px;
+			padding-bottom: 20px;
 		}
 	}
+
+	.redes {
+		&__titulo {
+			font-size: 18px;
+			padding-bottom: 10px;
+		}
+
+		&__iconoInstagram {
+			padding-right:10px;
+			font-size: 36px;
+			color: $grisClaro;
+			transition: all 400ms;
+			&:hover {
+				transform: scale(1.2,1.2) translateY(3px);
+			}
+		}
+
+		&__iconoFacebook {
+			padding-left: 10px;
+			font-size: 36px;
+			color: $grisClaro;
+			transition: all 400ms;
+			&:hover {
+				transform: scale(1.2,1.2) translateY(3px);
+			}
+		}
+		padding:{
+			top: 20px;
+			bottom: 20px;
+		}
+	}
+
+	#contacto__titulo {
+		font-size: 18px;
+	}
+
+	#contacto__linea {
+		background: #E8E8E8;
+		margin-right: 140px;
+		margin-left: 140px;
+		margin-bottom: 40px;
+		@media only screen and (max-width:767px){
+			margin-right: 100px;
+			margin-left: 100px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.contacto__icono {
+		padding-bottom: 10px;
+		font-size: 18px;
+		color: $grisClaro;
+	}
+
 	@mixin flex-row-center {
 		display:flex;
 		flex-direction:row;
 		justify-content:center;	
 	}
+
 	.newsletter {
 		@include flex-row-center;
 		align-items:baseline;
-		&__titulo--boxModel {
+
+		&__titulo {
 			padding-right:5px;
 		}
-		&__email--transformacion {
+
+		&__email {
+			font-size:12px;
+			padding:1px;
 			width: 160px;
+			height: 22px;
 			transition: all 1s;
 			&:focus {
 				width: 200px;
 				font-size: 16px;
 			}	
 		}
-	}
-	.redes {
-		.redes__titulo {
-			padding-bottom: 10px;
-		}
-		&__iconoInstagram--transformacion {
-			padding-right:10px;
-			font-size: 36px;
-			color: $grisClaro;
-			transition: all 1s;
-			&:hover {
-				transform: scale(1.2,1.2) translateY(3px);
-			}
-		}
-		&__iconoFacebook--transformacion {
-			padding-left: 10px;
-			font-size: 36px;
-			color: $grisClaro;
-			transition: all 1s;
-			&:hover {
-				transform: scale(1.2,1.2) translateY(3px);
-			}
-		}
-		&__iconoMapa--transformacion {
-			padding-bottom: 10px;
-			font-size: 28px;
-			color: $grisClaro;
-			transition: all 1s;
-			&:hover {
-				transform: scale(1.2,1.2) translateY(-3px);
-			}
-		}
-		@media only screen and (max-width:767px){
-			padding-top:30px;
+
+		#newsletter__boton {
+			font-size:12px;
+			padding: 1px;
 		}
 	}
-	.copyright {
-		margin-top: 60px;
-	}
+
 	.footer__info {
 		margin-top: 50px;
 		@media only screen and (max-width:767px){
-			margin-top: 20px;
+			margin-top: 30px;
 		}
 	}
-	.footer__icon {
-		margin-bottom: 10px;
-		transition: all 1s;
-		&:hover {
-			transform: scale(1.2,1.2) translateY(-3px);
-		}
-		@media only screen and (max-width:767px){
-			margin-bottom: 0px;
-		}
-	}
-}
-
-#footer__ubicacion {
-	padding-top: 6px;
 }
 
 .btn-wsp {
@@ -112,8 +129,8 @@ footer {
 	width: 75px;
 	height: 75px; 
 	line-height: 69px;
-	bottom: 30px;
-	right: 30px;
+	bottom: 20px;
+	right: 20px;
 	background: #0df053;
 	border-radius: 50px;
 	box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
