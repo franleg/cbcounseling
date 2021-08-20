@@ -7410,6 +7410,9 @@ footer {
     padding-bottom: 8px;
     font-size: 20px;
     color: #E8E8E8; }
+    @media only screen and (max-width: 767px) {
+      footer .contacto__icono {
+        padding-bottom: 0px; } }
   footer .newsletter {
     display: flex;
     flex-direction: row;
