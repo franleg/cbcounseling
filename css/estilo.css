@@ -7378,14 +7378,14 @@ footer {
       padding-bottom: 10px; }
     footer .redes__iconoInstagram {
       padding-right: 10px;
-      font-size: 36px;
+      font-size: 30px;
       color: #E8E8E8;
       transition: all 400ms; }
       footer .redes__iconoInstagram:hover {
         transform: scale(1.2, 1.2) translateY(3px); }
     footer .redes__iconoFacebook {
       padding-left: 10px;
-      font-size: 36px;
+      font-size: 30px;
       color: #E8E8E8;
       transition: all 400ms; }
       footer .redes__iconoFacebook:hover {
@@ -7403,9 +7403,11 @@ footer {
         margin-left: 100px;
         margin-bottom: 20px; } }
   footer .contacto__icono {
-    padding-bottom: 10px;
-    font-size: 18px;
+    padding-bottom: 8px;
+    font-size: 20px;
     color: #E8E8E8; }
+  footer #telefono {
+    text-decoration: none; }
   footer .newsletter {
     display: flex;
     flex-direction: row;
