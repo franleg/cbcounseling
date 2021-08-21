@@ -143,9 +143,10 @@ footer {
 
 	#copyright {
 		padding-top: 60px;
-		font-size:16px;
+		font-size:14px;
 		@media only screen and (max-width:767px){
 			padding-top: 10px;
+			font-size:12px;
 		}
 	}
 }

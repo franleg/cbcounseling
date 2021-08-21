@@ -7345,14 +7345,27 @@ p {
 .texto__atencionOnline {
   padding-top: 30px; }
 
+.form-group {
+  font-family: PlayfairDisplay; }
+
 .contacto {
   width: 100%;
   align-items: center;
   margin: 40px; }
-  .contacto .contacto__formulario, .contacto .contacto__mapa {
+  .contacto__formulario, .contacto__mapa {
     padding: 20px; }
-  .contacto .contacto__mapa iframe {
+  .contacto__mapa iframe {
     width: 100%; }
+  .contacto__formulario--titulo {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #6a6a6a; }
+    @media only screen and (max-width: 767px) {
+      .contacto__formulario--titulo {
+        font-size: 18px; } }
+  .contacto .form-group {
+    font-family: PlayfairDisplay; }
 
 footer {
   background-color: #363032;
@@ -7455,10 +7468,11 @@ footer {
         margin-top: 30px; } }
   footer #copyright {
     padding-top: 60px;
-    font-size: 16px; }
+    font-size: 14px; }
     @media only screen and (max-width: 767px) {
       footer #copyright {
-        padding-top: 10px; } }
+        padding-top: 10px;
+        font-size: 12px; } }
 
 .btn-wsp {
   position: fixed;

@@ -2,13 +2,25 @@
   width: 100%;
   align-items: center;
   margin: 40px;
-  .contacto__formulario {
+  &__formulario {
     padding: 20px;
   }
-  .contacto__mapa {
+  &__mapa {
     @extend .contacto__formulario;
     iframe {
       width:100%;
     }
   }
+  &__formulario--titulo {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing:1px;
+    color: #6a6a6a;
+    @media only screen and (max-width:767px){
+      font-size: 18px;
+    }
+  }
+  .form-group {
+  font-family: $fuente;
+}
 }
