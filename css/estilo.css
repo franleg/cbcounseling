@@ -7295,7 +7295,10 @@ p {
     width: 90%;
     padding: 30px; }
   .contenido .contenido__texto {
-    text-align: justify; }
+    text-align: justify;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    margin-top: 4px !important; }
 
 .grosor-1 {
   font-weight: 100; }

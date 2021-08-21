@@ -170,6 +170,11 @@ $vista:desktop;
 	.contenido__texto {
 		@extend .contenido__foto;
 		text-align:justify;
+		padding:{
+			right: 30px !important;
+			left:30px !important;
+		}
+		margin-top: 4px !important;
 	}
 }
 
