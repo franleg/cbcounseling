@@ -7116,6 +7116,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  @media only screen and (min-width: 1024px) {
+    .parallax {
+      background-attachment: fixed; } }
   @media only screen and (max-width: 767px) {
     .parallax {
       background-image: url("../assets/img/playa_mobile.png");
@@ -7155,7 +7158,7 @@ h4 {
       padding-right: 20px; } }
 
 .encabezadoPrincipal {
-  padding-top: 90px; }
+  padding-top: 60px; }
   .encabezadoPrincipal h3 {
     padding-bottom: 40px; }
   @media only screen and (max-width: 767px) {
@@ -7194,6 +7197,8 @@ p {
   text-decoration: underline; }
   @media only screen and (max-width: 767px) {
     #sesionOnline {
+      padding-left: 70px;
+      padding-right: 70px;
       font-size: 18px; } }
 
 @media only screen and (min-width: 1024px) {
@@ -7295,7 +7300,6 @@ p {
     width: 90%;
     padding: 30px; }
   .contenido .contenido__texto {
-    text-align: justify;
     padding-right: 30px !important;
     padding-left: 30px !important;
     margin-top: 4px !important; }

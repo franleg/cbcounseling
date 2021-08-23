@@ -44,6 +44,10 @@ p {
 	font-size: 24px;
 	text-decoration: underline;
 	@media only screen and (max-width:767px){
+		padding:{
+			left: 70px;
+			right: 70px;
+		}
 		font-size: 18px;
 	}
 }
@@ -169,7 +173,6 @@ $vista:desktop;
 	}
 	.contenido__texto {
 		@extend .contenido__foto;
-		text-align:justify;
 		padding:{
 			right: 30px !important;
 			left:30px !important;

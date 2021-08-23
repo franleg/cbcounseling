@@ -9,6 +9,9 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	@media only screen and (min-width:1024px){
+		background-attachment: fixed;
+	}
 	@media only screen and (max-width:767px){
 		background-image: url("../assets/img/playa_mobile.png");
 		height: 640px;
@@ -54,7 +57,7 @@ h4 {
 }
 
 .encabezadoPrincipal {
-	padding-top: 90px;
+	padding-top: 60px;
 	h3 {
 		padding-bottom: 40px;
 	}
